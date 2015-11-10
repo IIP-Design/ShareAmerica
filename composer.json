@@ -82,7 +82,7 @@
         "usstatedept/wpml-sticky-links":  "1.3.13",
         "usstatedept/wpml-string-translation":  "2.2.6",
         "usstatedept/wpml-translation-management":  "2.0.5",
-        "usstatedept/newspaper": "4.6.3",
+        "usstatedept/Newspaper": "4.6.3",
         "usstatedept/shareamerica": "0.1.2",
         "wpackagist-plugin/sb-rss-feed-plus": "1.4.15",
         "wpackagist-plugin/adminimize": "1.8.5",
