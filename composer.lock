@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "580af5c86104a0dfb2e084d65c3650c9",
-    "content-hash": "2fa5c7c006a1ea3479e2df91bf0d4cb9",
+    "hash": "7161b93819a659d67dec328cab377d90",
+    "content-hash": "9357dbaff0025913c1f1d77c12770940",
     "packages": [
         {
             "name": "composer/installers",
@@ -184,6 +184,24 @@
             "time": "2015-01-04 10:24:12"
         },
         {
+            "name": "usstatedept/Newspaper",
+            "version": "4.6.3",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/Newspaper.git",
+                "reference": "a913ab072a19b524f863b4c3f359a5d2eaaf9aae"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-theme",
+            "license": [
+                "MIT"
+            ],
+            "description": "ShareAmerica's parent theme",
+            "time": "2015-11-03 19:16:04"
+        },
+        {
             "name": "usstatedept/js_composer",
             "version": "4.4.4",
             "source": {
@@ -230,24 +248,6 @@
             "type": "wordpress-plugin",
             "description": " ",
             "time": "2015-10-06 12:40:51"
-        },
-        {
-            "name": "usstatedept/newspaper",
-            "version": "4.6.3",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/Newspaper.git",
-                "reference": "a913ab072a19b524f863b4c3f359a5d2eaaf9aae"
-            },
-            "require": {
-                "composer/installers": "v1.0.21"
-            },
-            "type": "wordpress-theme",
-            "license": [
-                "MIT"
-            ],
-            "description": "ShareAmerica's parent theme",
-            "time": "2015-11-03 19:16:04"
         },
         {
             "name": "usstatedept/sb-rss-feed-plus",
@@ -320,6 +320,27 @@
             "type": "wordpress-plugin",
             "description": "Social counter for wordpress",
             "time": "2015-11-03 19:17:28"
+        },
+        {
+            "name": "usstatedept/wp-auto-login-and-custom-email",
+            "version": "0.1.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wp-auto-login-and-custom-email.git",
+                "reference": "972520ddf989aa2b62ba59a72f3547bd3bfcfe22"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "A simple WordPress plugin for single sign-on based on the user's email address.",
+            "time": "2015-11-13 23:19:55"
         },
         {
             "name": "usstatedept/wpml-media",

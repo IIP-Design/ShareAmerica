@@ -25,6 +25,10 @@
         },
         {
             "type": "git",
+            "url": "git@github.com:USStateDept/wp-auto-login-and-custom-email.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:USStateDept/login-security-solution.git"
         },
         {
@@ -73,6 +77,7 @@
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "0.2.4",
         "usstatedept/js_composer": "4.4.4",
+        "usstatedept/wp-auto-login-and-custom-email": "0.1.1",
         "usstatedept/login-security-solution":  "0.44.0",
         "usstatedept/mailchimp-for-wp-pro":  "2.4.2",
         "usstatedept/sb-rss-feed-plus": "1.4.10",
