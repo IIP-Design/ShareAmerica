@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7161b93819a659d67dec328cab377d90",
-    "content-hash": "9357dbaff0025913c1f1d77c12770940",
+    "hash": "40d7f244624f3db42c056a81aa41647c",
+    "content-hash": "50a702c20851d356ac12f8b3ce84f3fa",
     "packages": [
         {
             "name": "composer/installers",
@@ -185,11 +185,11 @@
         },
         {
             "name": "usstatedept/Newspaper",
-            "version": "4.6.3",
+            "version": "4.6.3.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Newspaper.git",
-                "reference": "a913ab072a19b524f863b4c3f359a5d2eaaf9aae"
+                "reference": "5199909542453e442c793e72bc08ae4a3abeee0d"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -199,7 +199,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's parent theme",
-            "time": "2015-11-03 19:16:04"
+            "time": "2015-11-13 23:51:10"
         },
         {
             "name": "usstatedept/js_composer",
