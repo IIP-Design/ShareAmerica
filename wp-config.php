@@ -63,6 +63,8 @@ define('BLOG_ID_CURRENT_SITE', 1);
 
 define( 'SUNRISE', 'on' );
 
+define('WP_DEFAULT_THEME', 'shareamerica');
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
