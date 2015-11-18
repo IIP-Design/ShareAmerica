@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ac105db948031e05d95c96a9862baada",
-    "content-hash": "29385aafda558f30986046fa91838fa4",
+    "hash": "6a59c17673489ce1f52f9fd88db23183",
+    "content-hash": "c3bf462d5f7d1820251f3550fdfe77a8",
     "packages": [
         {
             "name": "composer/installers",
@@ -266,11 +266,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "0.1.3",
+            "version": "0.1.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "a5036bbe21a988ba58562e8684c186e314a967a2"
+                "reference": "33667826bc03a78404ab06e96c6c0ffc2b61356e"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -280,7 +280,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2015-11-16 21:26:23"
+            "time": "2015-11-18 14:25:53"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -706,26 +706,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/safe-redirect-manager/"
-        },
-        {
-            "name": "wpackagist-plugin/sb-rss-feed-plus",
-            "version": "1.4.15",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/sb-rss-feed-plus/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/sb-rss-feed-plus.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/sb-rss-feed-plus/"
         },
         {
             "name": "wpackagist-plugin/tablepress",
