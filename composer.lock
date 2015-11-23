@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6a59c17673489ce1f52f9fd88db23183",
-    "content-hash": "c3bf462d5f7d1820251f3550fdfe77a8",
+    "hash": "6c1a2b79a54583d736f5a5227b9de68d",
+    "content-hash": "2d8bd394cf80294f04ad54964e12caff",
     "packages": [
         {
             "name": "composer/installers",
@@ -250,27 +250,12 @@
             "time": "2015-10-06 12:40:51"
         },
         {
-            "name": "usstatedept/sb-rss-feed-plus",
-            "version": "1.4.10",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/sb-rss-feed-plus.git",
-                "reference": "6c88408fd6ec27ab60163a55a28d5316801559bd"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "description": "This plugin will add post thumbnail to RSS feed items. Add signatur or simple ads. Create fulltext RSS (via special url)",
-            "time": "2015-10-06 13:21:52"
-        },
-        {
             "name": "usstatedept/shareamerica",
-            "version": "0.1.4",
+            "version": "0.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "33667826bc03a78404ab06e96c6c0ffc2b61356e"
+                "reference": "ff374f37c6017de56c60546297a13bfbfee92e3f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -280,7 +265,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2015-11-18 14:25:53"
+            "time": "2015-11-23 17:20:23"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -706,6 +691,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/safe-redirect-manager/"
+        },
+        {
+            "name": "wpackagist-plugin/sb-rss-feed-plus",
+            "version": "1.4.15",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/sb-rss-feed-plus/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sb-rss-feed-plus.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sb-rss-feed-plus/"
         },
         {
             "name": "wpackagist-plugin/tablepress",
