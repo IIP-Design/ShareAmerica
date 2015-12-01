@@ -255,7 +255,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "ff374f37c6017de56c60546297a13bfbfee92e3f"
+                "reference": "2b7043e8243a386ded789773d2538b4cc43e80a0"
             },
             "require": {
                 "composer/installers": "v1.0.21"
