@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f50fbfed696b6e185b54c2e73044293d",
-    "content-hash": "2dcfc180c7139d232be3bfa8d5a09ac6",
+    "hash": "6993b2fd3a15f42c7d843abe3ce2777c",
+    "content-hash": "291ed616b2c941727c5fd5a6649d54ed",
     "packages": [
         {
             "name": "composer/installers",
@@ -292,21 +292,6 @@
             "time": "2015-12-03 20:58:24"
         },
         {
-            "name": "usstatedept/td-social-counter",
-            "version": "2.10",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/td-social-counter.git",
-                "reference": "316e49c760e5fe9f9cc7fb22534bd40ac463a134"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "description": "Social counter for wordpress",
-            "time": "2015-11-03 19:17:28"
-        },
-        {
             "name": "usstatedept/wp-auto-login-and-custom-email",
             "version": "0.1.1",
             "source": {
@@ -442,46 +427,6 @@
             "homepage": "https://wordpress.org/plugins/animated-gif-resize/"
         },
         {
-            "name": "wpackagist-plugin/contact-form-7",
-            "version": "4.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/4.3"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.4.3.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/contact-form-7/"
-        },
-        {
-            "name": "wpackagist-plugin/custom-404-error-page",
-            "version": "0.2.4",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/custom-404-error-page/",
-                "reference": "tags/0.2.4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/custom-404-error-page.0.2.4.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/custom-404-error-page/"
-        },
-        {
             "name": "wpackagist-plugin/easy-wp-smtp",
             "version": "1.2.1",
             "source": {
@@ -602,26 +547,6 @@
             "homepage": "https://wordpress.org/plugins/iframe/"
         },
         {
-            "name": "wpackagist-plugin/ipad-swipe",
-            "version": "1.2",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/ipad-swipe/",
-                "reference": "tags/1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ipad-swipe.1.2.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/ipad-swipe/"
-        },
-        {
             "name": "wpackagist-plugin/manual-image-crop",
             "version": "1.12",
             "source": {
@@ -660,26 +585,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/q2w3-fixed-widget/"
-        },
-        {
-            "name": "wpackagist-plugin/really-simple-captcha",
-            "version": "1.8.0.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/really-simple-captcha/",
-                "reference": "tags/1.8.0.1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/really-simple-captcha.1.8.0.1.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/really-simple-captcha/"
         },
         {
             "name": "wpackagist-plugin/safe-redirect-manager",
@@ -800,46 +705,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wp-external-links/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-keyboard-navigation",
-            "version": "1.0.1",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-keyboard-navigation/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-keyboard-navigation.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-keyboard-navigation/"
-        },
-        {
-            "name": "wpackagist-plugin/wp-user-avatar",
-            "version": "2.0.3",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-user-avatar/",
-                "reference": "trunk"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-user-avatar.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/wp-user-avatar/"
         },
         {
             "name": "wpackagist-plugin/wpfront-user-role-editor",
