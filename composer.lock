@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6993b2fd3a15f42c7d843abe3ce2777c",
-    "content-hash": "291ed616b2c941727c5fd5a6649d54ed",
+    "hash": "17f677bf8730d0db50263eb93753da48",
+    "content-hash": "0b46b6d78c01f21f9b50ead7680775db",
     "packages": [
         {
             "name": "composer/installers",
@@ -269,11 +269,11 @@
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
-            "version": "dev-wpml_switcher_1221",
+            "version": "dev-wpml_switcher_1221_1299_1362",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git",
-                "reference": "54dc0f005ecb27b92834fde23a2f50d4a31d6cf6"
+                "reference": "efe5bc6bf0c6678ad5c083c9defa9ef97ad63723"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -289,7 +289,7 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2015-12-03 20:58:24"
+            "time": "2015-12-13 20:11:41"
         },
         {
             "name": "usstatedept/wp-auto-login-and-custom-email",
