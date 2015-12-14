@@ -93,7 +93,7 @@
         "wpackagist-plugin/wpfront-user-role-editor": "2.12",
         "wpackagist-plugin/google-apps-login": "2.8.12",
         "wpackagist-plugin/safe-redirect-manager": "1.7.7",
-        "wpackagist-plugin/easy-wp-smtp": "1.2.1",
+        "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
         "wpackagist-plugin/sb-rss-feed-plus": "1.4.15"
         },
