@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c9b86d8a4d4949d329b650bf5ef49f17",
-    "content-hash": "8a9f3b027cd967fe0283eed10b4375dc",
+    "hash": "1ef94d0dcf2d337069048313233b429d",
+    "content-hash": "e7d474a42ec7ed3765d0445acd4828cb",
     "packages": [
         {
             "name": "composer/installers",
@@ -251,11 +251,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "0.1.5",
+            "version": "0.1.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "ff374f37c6017de56c60546297a13bfbfee92e3f"
+                "reference": "98ceb05c4f13b39bc18c1c7e543739072032b80d"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -265,7 +265,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2015-11-23 17:20:23"
+            "time": "2015-12-16 16:40:11"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -297,7 +297,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wp-hide-login-form.git",
-                "reference": "3796f6657457bcddbe0dd845f6cc73a12487329c"
+                "reference": "5c9a0f55eeea503f82e42d0438fceda8640016ca"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -310,7 +310,7 @@
                 }
             ],
             "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16 16:09:00"
+            "time": "2015-12-16 16:18:36"
         },
         {
             "name": "usstatedept/wpml-media",
