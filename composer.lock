@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "17f677bf8730d0db50263eb93753da48",
-    "content-hash": "0b46b6d78c01f21f9b50ead7680775db",
+    "hash": "c9b86d8a4d4949d329b650bf5ef49f17",
+    "content-hash": "8a9f3b027cd967fe0283eed10b4375dc",
     "packages": [
         {
             "name": "composer/installers",
@@ -255,7 +255,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "2b7043e8243a386ded789773d2538b4cc43e80a0"
+                "reference": "ff374f37c6017de56c60546297a13bfbfee92e3f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -273,7 +273,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git",
-                "reference": "efe5bc6bf0c6678ad5c083c9defa9ef97ad63723"
+                "reference": "c47131cb856fd0c464a8be135969650327117378"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -289,15 +289,15 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2015-12-13 20:11:41"
+            "time": "2015-12-14 15:36:20"
         },
         {
-            "name": "usstatedept/wp-auto-login-and-custom-email",
-            "version": "0.1.1",
+            "name": "usstatedept/wp-hide-login-form",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "git@github.com:USStateDept/wp-auto-login-and-custom-email.git",
-                "reference": "972520ddf989aa2b62ba59a72f3547bd3bfcfe22"
+                "url": "git@github.com:USStateDept/wp-hide-login-form.git",
+                "reference": "3796f6657457bcddbe0dd845f6cc73a12487329c"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -309,8 +309,8 @@
                     "email": "gustassj@america.gov"
                 }
             ],
-            "description": "A simple WordPress plugin for single sign-on based on the user's email address.",
-            "time": "2015-11-13 23:19:55"
+            "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
+            "time": "2015-12-16 16:09:00"
         },
         {
             "name": "usstatedept/wpml-media",
