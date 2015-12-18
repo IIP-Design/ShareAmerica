@@ -53,6 +53,10 @@
         },
         {
             "type": "git",
+            "url": "git@github.com:USStateDept/js-cookie-manager.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:USStateDept/wpml-translation-management.git"
         },
         {
@@ -77,6 +81,7 @@
         "usstatedept/wpml-sticky-links":  "1.3.14",
         "usstatedept/wpml-string-translation":  "2.3.2",
         "usstatedept/wpml-translation-management":  "2.1.1",
+        "usstatedept/js-cookie-manager": "1.0.0",
         "usstatedept/Newspaper": "4.6.3",
         "usstatedept/shareamerica": "0.1.6",
         "wpackagist-plugin/adminimize": "1.8.5",

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4c24aaf282836337ed030bf01b63177a",
-    "content-hash": "139d19ec9e712215635d43f1bb98d827",
+    "hash": "a713b2a48d2b67b54f252c4aa222dceb",
+    "content-hash": "99cbe2ee4607ec4d6d46accccad0cd6d",
     "packages": [
         {
             "name": "composer/installers",
@@ -200,6 +200,27 @@
             ],
             "description": "ShareAmerica's parent theme",
             "time": "2015-11-03 19:16:04"
+        },
+        {
+            "name": "usstatedept/js-cookie-manager",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/js-cookie-manager.git",
+                "reference": "1329b388598c7e8c3ac65df40d0f917c731e56ef"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "reganta@america.gov"
+                }
+            ],
+            "description": "Plugin to manage cookies via javascript",
+            "time": "2015-12-17 21:34:46"
         },
         {
             "name": "usstatedept/js_composer",
