@@ -100,7 +100,8 @@
         "wpackagist-plugin/safe-redirect-manager": "1.7.7",
         "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
-        "wpackagist-plugin/sb-rss-feed-plus": "1.4.15"
+        "wpackagist-plugin/sb-rss-feed-plus": "1.4.15",
+        "wpackagist-plugin/knight-lab-timelinejs": "3.3.11.2"
         },
     "extra": {
         "dropin-paths": {
