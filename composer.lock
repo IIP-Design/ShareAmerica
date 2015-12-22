@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a713b2a48d2b67b54f252c4aa222dceb",
-    "content-hash": "99cbe2ee4607ec4d6d46accccad0cd6d",
+    "hash": "36dc5fbae90efb69115ccaca9263dd8e",
+    "content-hash": "6c7af0d1f1c13abeac09a7e9efd304d8",
     "packages": [
         {
             "name": "composer/installers",
@@ -318,7 +318,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wp-hide-login-form.git",
-                "reference": "5c9a0f55eeea503f82e42d0438fceda8640016ca"
+                "reference": "3796f6657457bcddbe0dd845f6cc73a12487329c"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -331,7 +331,7 @@
                 }
             ],
             "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16 16:18:36"
+            "time": "2015-12-16 16:09:00"
         },
         {
             "name": "usstatedept/wpml-media",
@@ -566,6 +566,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/iframe/"
+        },
+        {
+            "name": "wpackagist-plugin/knight-lab-timelinejs",
+            "version": "3.3.11.2",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/knight-lab-timelinejs/",
+                "reference": "tags/3.3.11.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.3.11.2.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/knight-lab-timelinejs/"
         },
         {
             "name": "wpackagist-plugin/manual-image-crop",
