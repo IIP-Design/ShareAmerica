@@ -294,7 +294,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git",
-                "reference": "9ab9c76bcf3d6aecab77232b1571ca048c0e62b2"
+                "reference": "a0fa1b142153ba033c698d000765b38d0822650d"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -310,7 +310,7 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2016-01-04 21:10:39"
+            "time": "2016-01-05 20:47:46"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
