@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7504a323fcb8c1426d8d658d4ebbcc11",
-    "content-hash": "1b1b305d7073ed183a00be97b5546b21",
+    "hash": "f7f7a9129ee7646c7acdb8481e15b020",
+    "content-hash": "9378e4622daf61c6e527d2c025bd379d",
     "packages": [
         {
             "name": "composer/installers",
@@ -290,11 +290,11 @@
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
-            "version": "dev-wpml_switcher_1221_1299_1362",
+            "version": "dev-wpml_3_3_5_switcher_1221_1299_1362",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git",
-                "reference": "c47131cb856fd0c464a8be135969650327117378"
+                "reference": "a0fa1b142153ba033c698d000765b38d0822650d"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -310,7 +310,7 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2015-12-14 15:36:20"
+            "time": "2016-01-05 20:47:46"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -335,63 +335,63 @@
         },
         {
             "name": "usstatedept/wpml-media",
-            "version": "2.1.15",
+            "version": "2.1.18",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-media.git",
-                "reference": "a9d2f7be84f8970b9edfda39581157f4b532d956"
+                "reference": "ce5ea9b4840a9d665d729fa251ba30e028f5f716"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Add multilingual support for Media files",
-            "time": "2015-12-03 21:07:56"
+            "time": "2016-01-04 15:53:30"
         },
         {
             "name": "usstatedept/wpml-sticky-links",
-            "version": "1.3.14",
+            "version": "1.3.17",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-sticky-links.git",
-                "reference": "04abb743b66be1e2da08e8d7bf115329b1fa2268"
+                "reference": "3e26258bd225788516b44ad8da34003f78e7b51d"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Prevents internal links from ever breaking",
-            "time": "2015-11-19 16:35:54"
+            "time": "2016-01-04 16:31:44"
         },
         {
             "name": "usstatedept/wpml-string-translation",
-            "version": "2.3.2",
+            "version": "2.3.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-string-translation.git",
-                "reference": "5474a95edb237f3afd704ce42dd8abcaefb1818a"
+                "reference": "e4c86775fed48ca535e62f85842e59ecca02c78e"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Adds theme and plugins localization capabilities to WPML",
-            "time": "2015-12-03 21:55:05"
+            "time": "2016-01-04 16:28:59"
         },
         {
             "name": "usstatedept/wpml-translation-management",
-            "version": "2.1.1",
+            "version": "2.1.4",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-translation-management.git",
-                "reference": "43a5c5b642b580a662caa6fea90ce5c58c01e71c"
+                "reference": "6c47a36d9f66122374926425a7e32f6c32648a7c"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Add a complete translation process for WPML",
-            "time": "2015-12-03 21:52:37"
+            "time": "2016-01-04 16:35:17"
         },
         {
             "name": "wordpress",
