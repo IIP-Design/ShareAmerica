@@ -72,7 +72,7 @@
         "wordpress": "4.3.1",
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "0.2.4",
-        "usstatedept/js_composer": "4.4.4",
+        "usstatedept/js_composer": "4.8.1",
         "usstatedept/wp-hide-login-form": "1.0.1",
         "usstatedept/login-security-solution":  "0.44.0",
         "usstatedept/mailchimp-for-wp-pro":  "2.4.2",
@@ -101,7 +101,8 @@
         "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
         "wpackagist-plugin/sb-rss-feed-plus": "1.4.15",
-        "wpackagist-plugin/knight-lab-timelinejs": "3.3.11.2"
+        "wpackagist-plugin/knight-lab-timelinejs": "3.3.11.2",
+        "wpackagist-plugin/font-awesome-4-menus": "4.5.0.0"
         },
     "extra": {
         "dropin-paths": {

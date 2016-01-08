@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6824b6c391b1c7a72e63fb58ac3b09a9",
-    "content-hash": "3627b1803a70da22921b5b6ee8d35e8d",
+    "hash": "6919ceb5e494b4f087f0de798b561d05",
+    "content-hash": "43c6eec65608a2f1eb7024c053e1c8d9",
     "packages": [
         {
             "name": "composer/installers",
@@ -185,11 +185,11 @@
         },
         {
             "name": "usstatedept/Newspaper",
-            "version": "4.6.3",
+            "version": "6.6.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Newspaper.git",
-                "reference": "a913ab072a19b524f863b4c3f359a5d2eaaf9aae"
+                "reference": "50ac76c85c6f914c4dab4ec396a7ca35121fdc4f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -199,7 +199,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's parent theme",
-            "time": "2015-11-03 19:16:04"
+            "time": "2015-12-16 19:53:57"
         },
         {
             "name": "usstatedept/js-cookie-manager",
@@ -224,11 +224,11 @@
         },
         {
             "name": "usstatedept/js_composer",
-            "version": "4.4.4",
+            "version": "4.8.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/js_composer.git",
-                "reference": "2a6f7575837ef5bc2bce78bc97119e8118ef2b61"
+                "reference": "4b7584bc50a0ffabd10695fd3dff610656275e17"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -238,7 +238,7 @@
                 "MIT"
             ],
             "description": "Visual Composer.",
-            "time": "2015-11-03 19:21:04"
+            "time": "2015-12-16 20:01:08"
         },
         {
             "name": "usstatedept/login-security-solution",
@@ -272,11 +272,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "1.0",
+            "version": "dev-newspaper6_1229",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "3bcda3a046a46f323238d283e162769838d1627d"
+                "reference": "3280d57f51abd15268389b5100603a196589199a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -286,7 +286,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-01-07 14:12:35"
+            "time": "2016-01-04 14:49:19"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -318,7 +318,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wp-hide-login-form.git",
-                "reference": "5c9a0f55eeea503f82e42d0438fceda8640016ca"
+                "reference": "3796f6657457bcddbe0dd845f6cc73a12487329c"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -331,7 +331,7 @@
                 }
             ],
             "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16 16:18:36"
+            "time": "2015-12-16 16:09:00"
         },
         {
             "name": "usstatedept/wpml-media",
@@ -506,6 +506,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
+        },
+        {
+            "name": "wpackagist-plugin/font-awesome-4-menus",
+            "version": "4.5.0.0",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/font-awesome-4-menus/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/font-awesome-4-menus.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/font-awesome-4-menus/"
         },
         {
             "name": "wpackagist-plugin/google-apps-login",
@@ -772,7 +792,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "usstatedept/sitepress-multilingual-cms": 20
+        "usstatedept/sitepress-multilingual-cms": 20,
+        "usstatedept/shareamerica": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
