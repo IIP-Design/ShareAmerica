@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6919ceb5e494b4f087f0de798b561d05",
-    "content-hash": "43c6eec65608a2f1eb7024c053e1c8d9",
+    "hash": "987857d048ee85e85f7088da36d2fc60",
+    "content-hash": "73ae7d90f796cebb4160b7129e199d33",
     "packages": [
         {
             "name": "composer/installers",
@@ -626,26 +626,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/manual-image-crop/"
-        },
-        {
-            "name": "wpackagist-plugin/q2w3-fixed-widget",
-            "version": "4.0.6",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/q2w3-fixed-widget/",
-                "reference": "tags/4.0.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/q2w3-fixed-widget.4.0.6.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/q2w3-fixed-widget/"
         },
         {
             "name": "wpackagist-plugin/safe-redirect-manager",
