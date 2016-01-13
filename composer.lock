@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "987857d048ee85e85f7088da36d2fc60",
-    "content-hash": "73ae7d90f796cebb4160b7129e199d33",
+    "hash": "5191e1926ab55c29ee868c02e262511a",
+    "content-hash": "9a0355aacff343356c9bcf92e743919f",
     "packages": [
         {
             "name": "composer/installers",
@@ -276,7 +276,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "3280d57f51abd15268389b5100603a196589199a"
+                "reference": "2e8492c61f4e6f7885b5cb1001545365bb56e2ca"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -286,7 +286,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-01-04 14:49:19"
+            "time": "2016-01-10 19:07:32"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -311,6 +311,36 @@
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
             "time": "2016-01-05 20:47:46"
+        },
+        {
+            "name": "usstatedept/td-social-counter",
+            "version": "3.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/td-social-counter.git",
+                "reference": "5cb89f1a458245dc9443a73e528b2af5e09d7d70"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Social counter for wordpress",
+            "time": "2015-12-16 20:43:08"
+        },
+        {
+            "name": "usstatedept/td-speed-booster",
+            "version": "4.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/td-speed-booster.git",
+                "reference": "efcb09a07cbc13d094de635fe2a58cf9a79f4fbc"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": "Speed booster for Newspaper 6 and Newsmag 2.x themes - It moves the styles and all the scripts of the theme to the bottom when needed. It activates internal theme optimizations for better speed and it adds async js.",
+            "time": "2015-12-16 20:46:58"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
