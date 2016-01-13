@@ -70,6 +70,14 @@
         {
             "type": "git",
             "url": "git@github.com:USStateDept/ShareAmerica-Theme.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:USStateDept/td-social-counter.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:USStateDept/td-speed-booster.git"
         }
     ],
     "require": {
@@ -89,6 +97,8 @@
         "usstatedept/Newspaper": "6.6.2",
         "usstatedept/shareamerica": "dev-newspaper6_1229",
         "usstatedept/languages": "4.3.1",
+        "usstatedept/td-social-counter": "3.1",
+        "usstatedept/td-speed-booster": "4.2",
         "wpackagist-plugin/adminimize": "1.8.5",
         "wpackagist-plugin/animated-gif-resize": "1.0",
         "wpackagist-plugin/edik-enhanced-image-editor": "0.1.2",
