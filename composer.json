@@ -107,6 +107,9 @@
         "dropin-paths": {
             "wp-content/": [
             "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php"
+            ],
+            "wp-content/languages": [
+            "package:usstatedept/wp_core_languages"
             ]
         },
         "webroot-dir": "wp",
