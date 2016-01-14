@@ -108,8 +108,8 @@
             "wp-content/": [
             "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php"
             ],
-            "wp-content/languages": [
-            "package:usstatedept/wp_core_languages"
+            "wp-content": [
+            "package:usstatedept/languages"
             ]
         },
         "webroot-dir": "wp",
