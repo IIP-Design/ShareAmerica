@@ -1,5 +1,6 @@
 # Wordpress
 wp/
+wp-content/languages
 wp-content/cache
 wp-content/plugins
 wp-content/themes
