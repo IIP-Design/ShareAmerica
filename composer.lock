@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5191e1926ab55c29ee868c02e262511a",
-    "content-hash": "9a0355aacff343356c9bcf92e743919f",
+    "hash": "891d5490cfb5b50f5b74fb2f7eaee2b2",
+    "content-hash": "d3f6224297420d5f9fd427896c96c0f2",
     "packages": [
         {
             "name": "composer/installers",
@@ -254,21 +254,6 @@
             "type": "wordpress-plugin",
             "description": "Security against brute force attacks by tracking IP, name, password; requiring very strong passwords. Idle timeout. Maintenance mode lockdown.",
             "time": "2015-10-06 12:35:45"
-        },
-        {
-            "name": "usstatedept/mailchimp-for-wp-pro",
-            "version": "2.4.2",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git",
-                "reference": "a89ec9c9d0d85b88804ac3f983c3b5a46610c2a4"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "description": " ",
-            "time": "2015-10-06 12:40:51"
         },
         {
             "name": "usstatedept/shareamerica",
@@ -636,6 +621,46 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/knight-lab-timelinejs/"
+        },
+        {
+            "name": "wpackagist-plugin/mailchimp-for-wp",
+            "version": "3.0.12",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/3.0.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.0.12.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
+        },
+        {
+            "name": "wpackagist-plugin/mailchimp-top-bar",
+            "version": "1.2.6",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/mailchimp-top-bar/",
+                "reference": "tags/1.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-top-bar.1.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-top-bar/"
         },
         {
             "name": "wpackagist-plugin/manual-image-crop",
