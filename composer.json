@@ -78,6 +78,10 @@
         {
             "type": "git",
             "url": "git@github.com:USStateDept/td-speed-booster.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git"
         }
     ],
     "require": {
@@ -116,7 +120,7 @@
         "wpackagist-plugin/sb-rss-feed-plus": "1.4.16",
         "wpackagist-plugin/knight-lab-timelinejs": "3.3.11.2",
         "wpackagist-plugin/font-awesome-4-menus": "4.5.0.0",
-        "wpackagist-plugin/mailchimp-for-wp": "3.0.12",
+        "usstatedept/mailchimp-for-wp-pro": "2.4.2",
         "wpackagist-plugin/mailchimp-top-bar": "1.2.6"
         },
     "extra": {

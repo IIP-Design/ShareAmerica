@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "891d5490cfb5b50f5b74fb2f7eaee2b2",
-    "content-hash": "d3f6224297420d5f9fd427896c96c0f2",
+    "hash": "6b6d252723faa860d72ac4a294cebb06",
+    "content-hash": "46955db1a90bf50691d5ddc741795e37",
     "packages": [
         {
             "name": "composer/installers",
@@ -256,12 +256,27 @@
             "time": "2015-10-06 12:35:45"
         },
         {
+            "name": "usstatedept/mailchimp-for-wp-pro",
+            "version": "2.4.2",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git",
+                "reference": "a89ec9c9d0d85b88804ac3f983c3b5a46610c2a4"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "description": " ",
+            "time": "2015-10-06 12:40:51"
+        },
+        {
             "name": "usstatedept/shareamerica",
             "version": "dev-newspaper6_1229",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "a8f25dcb819d06a4cf56dd00a5dddbc8f45d71da"
+                "reference": "b7057b330913e365cd4a2d8816a78b5d38ddc6ac"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -271,7 +286,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-01-13 18:33:31"
+            "time": "2016-01-22 13:11:53"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -621,26 +636,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/knight-lab-timelinejs/"
-        },
-        {
-            "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "3.0.12",
-            "source": {
-                "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/3.0.12"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.0.12.zip",
-                "reference": null,
-                "shasum": null
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
         },
         {
             "name": "wpackagist-plugin/mailchimp-top-bar",
