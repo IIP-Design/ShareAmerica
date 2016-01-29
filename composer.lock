@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b6d252723faa860d72ac4a294cebb06",
-    "content-hash": "46955db1a90bf50691d5ddc741795e37",
+    "hash": "daa40afcb51aaddd5d86317d5d4d3899",
+    "content-hash": "3bb58a3be8e0c8cc60da9363f33ae702",
     "packages": [
         {
             "name": "composer/installers",
@@ -257,18 +257,27 @@
         },
         {
             "name": "usstatedept/mailchimp-for-wp-pro",
-            "version": "2.4.2",
+            "version": "3.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git",
-                "reference": "a89ec9c9d0d85b88804ac3f983c3b5a46610c2a4"
+                "reference": "29d3e09f6cd185c90017892d2ecd22aaabe909c3"
             },
             "require": {
-                "composer/installers": "~1.0"
+                "composer/installers": "v1.0.21"
             },
             "type": "wordpress-plugin",
-            "description": " ",
-            "time": "2015-10-06 12:40:51"
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Nathan Kleekamp",
+                    "email": "nkleekamp@gmail.com"
+                }
+            ],
+            "description": "The best MailChimp plugin for WordPress.",
+            "time": "2016-01-27 19:08:16"
         },
         {
             "name": "usstatedept/shareamerica",
@@ -636,6 +645,26 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/knight-lab-timelinejs/"
+        },
+        {
+            "name": "wpackagist-plugin/mailchimp-for-wp",
+            "version": "3.1",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/3.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
         },
         {
             "name": "wpackagist-plugin/mailchimp-top-bar",
