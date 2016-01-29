@@ -74,10 +74,6 @@
         {
             "type": "git",
             "url": "git@github.com:USStateDept/td-speed-booster.git"
-        },
-        {
-            "type": "git",
-            "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git"
         }
     ],
     "require": {
@@ -87,6 +83,7 @@
         "usstatedept/js_composer": "4.8.1",
         "usstatedept/wp-hide-login-form": "1.0.1",
         "usstatedept/login-security-solution":  "0.44.0",
+        "usstatedept/mailchimp-for-wp-pro":  "3.1",
         "usstatedept/sitepress-multilingual-cms": "dev-wpml_3_3_5_switcher_1221_1299_1362",
         "usstatedept/wpml-media":  "2.1.18",
         "usstatedept/wpml-sticky-links":  "1.3.17",
@@ -115,7 +112,7 @@
         "wpackagist-plugin/sb-rss-feed-plus": "1.4.15",
         "wpackagist-plugin/knight-lab-timelinejs": "3.3.11.2",
         "wpackagist-plugin/font-awesome-4-menus": "4.5.0.0",
-        "usstatedept/mailchimp-for-wp-pro": "2.4.2",
+        "wpackagist-plugin/mailchimp-for-wp": "3.1",
         "wpackagist-plugin/mailchimp-top-bar": "1.2.6"
         },
     "extra": {
