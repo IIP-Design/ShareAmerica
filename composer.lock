@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "daa40afcb51aaddd5d86317d5d4d3899",
-    "content-hash": "3bb58a3be8e0c8cc60da9363f33ae702",
+    "hash": "a009d1ae7f940eca2cae6fd55103388b",
+    "content-hash": "a6e244d646607951e6e76d7dd4fc7d78",
     "packages": [
         {
             "name": "composer/installers",
@@ -285,7 +285,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "b7057b330913e365cd4a2d8816a78b5d38ddc6ac"
+                "reference": "d45039f512f43d14d09040265b3028da3dd1149d"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -295,7 +295,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-01-22 13:11:53"
+            "time": "2016-01-29 20:19:41"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -335,21 +335,6 @@
             "type": "wordpress-plugin",
             "description": "Social counter for wordpress",
             "time": "2015-12-16 20:43:08"
-        },
-        {
-            "name": "usstatedept/td-speed-booster",
-            "version": "4.2",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/td-speed-booster.git",
-                "reference": "efcb09a07cbc13d094de635fe2a58cf9a79f4fbc"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "description": "Speed booster for Newspaper 6 and Newsmag 2.x themes - It moves the styles and all the scripts of the theme to the bottom when needed. It activates internal theme optimizations for better speed and it adds async js.",
-            "time": "2015-12-16 20:46:58"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
