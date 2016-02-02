@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a009d1ae7f940eca2cae6fd55103388b",
-    "content-hash": "a6e244d646607951e6e76d7dd4fc7d78",
+    "hash": "01ceed1d3e706dbecac924c02c32d39d",
+    "content-hash": "3b2d61f0c4610e6b468cc5b021f0e9e3",
     "packages": [
         {
             "name": "composer/installers",
@@ -239,6 +239,30 @@
             ],
             "description": "Visual Composer.",
             "time": "2015-12-16 20:01:08"
+        },
+        {
+            "name": "usstatedept/languages",
+            "version": "4.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/USStateDept/wp_core_languages.git",
+                "reference": "6d9baad4a604e599fc40dd17ef3be105aa6f20d2"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sean Parker",
+                    "email": "parkersr@america.gov"
+                }
+            ],
+            "description": "Language files for Wordpress Core",
+            "time": "2016-01-19 19:16:04"
         },
         {
             "name": "usstatedept/login-security-solution",
@@ -713,7 +737,7 @@
         },
         {
             "name": "wpackagist-plugin/sb-rss-feed-plus",
-            "version": "1.4.15",
+            "version": "1.4.16",
             "source": {
                 "type": "svn",
                 "url": "http://plugins.svn.wordpress.org/sb-rss-feed-plus/",
