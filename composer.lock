@@ -309,7 +309,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "d45039f512f43d14d09040265b3028da3dd1149d"
+                "reference": "91a81e7396838d10baa1d4fe0b7dd5813611906e"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -319,7 +319,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-01-29 20:19:41"
+            "time": "2016-02-03 16:18:23"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
