@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "58130d0a64dc5aaba07bafad5727ec8c",
-    "content-hash": "d88ed6b56739dfd16a1319dca18caf53",
+    "hash": "e895ba7043cf90c1facc924b23904df3",
+    "content-hash": "e0488d16c43db95870fc1140678ad2a7",
     "packages": [
         {
             "name": "composer/installers",
@@ -305,11 +305,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "4be0318c71b73f47c19c7a550273e26e4a09ac6e"
+                "reference": "81db0c1820ff5ef43ff1770f5522955e449b492f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -319,7 +319,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-03-10 18:02:47"
+            "time": "2016-03-18 18:17:12"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -460,7 +460,7 @@
             "version": "1.8.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/adminimize/",
+                "url": "https://plugins.svn.wordpress.org/adminimize/",
                 "reference": "tags/1.8.5"
             },
             "dist": {
@@ -480,7 +480,7 @@
             "version": "1.7",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/amazon-ses-and-dkim-mailer/",
+                "url": "https://plugins.svn.wordpress.org/amazon-ses-and-dkim-mailer/",
                 "reference": "tags/1.7"
             },
             "dist": {
@@ -500,7 +500,7 @@
             "version": "1.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/animated-gif-resize/",
+                "url": "https://plugins.svn.wordpress.org/animated-gif-resize/",
                 "reference": "trunk"
             },
             "dist": {
@@ -520,7 +520,7 @@
             "version": "0.1.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/edik-enhanced-image-editor/",
+                "url": "https://plugins.svn.wordpress.org/edik-enhanced-image-editor/",
                 "reference": "tags/0.1.2"
             },
             "dist": {
@@ -540,7 +540,7 @@
             "version": "2.5.3",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/ewww-image-optimizer/",
+                "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
                 "reference": "tags/2.5.3"
             },
             "dist": {
@@ -560,7 +560,7 @@
             "version": "4.5.0.0",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/font-awesome-4-menus/",
+                "url": "https://plugins.svn.wordpress.org/font-awesome-4-menus/",
                 "reference": "trunk"
             },
             "dist": {
@@ -580,7 +580,7 @@
             "version": "2.8.12",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/google-apps-login/",
+                "url": "https://plugins.svn.wordpress.org/google-apps-login/",
                 "reference": "tags/2.8.12"
             },
             "dist": {
@@ -600,7 +600,7 @@
             "version": "1.4.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/gravitate-event-tracking/",
+                "url": "https://plugins.svn.wordpress.org/gravitate-event-tracking/",
                 "reference": "trunk"
             },
             "dist": {
@@ -620,7 +620,7 @@
             "version": "4.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/iframe/",
+                "url": "https://plugins.svn.wordpress.org/iframe/",
                 "reference": "tags/4.2"
             },
             "dist": {
@@ -640,7 +640,7 @@
             "version": "3.3.11.2",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/knight-lab-timelinejs/",
+                "url": "https://plugins.svn.wordpress.org/knight-lab-timelinejs/",
                 "reference": "tags/3.3.11.2"
             },
             "dist": {
@@ -660,7 +660,7 @@
             "version": "3.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
                 "reference": "tags/3.1"
             },
             "dist": {
@@ -680,7 +680,7 @@
             "version": "1.2.6",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/mailchimp-top-bar/",
+                "url": "https://plugins.svn.wordpress.org/mailchimp-top-bar/",
                 "reference": "tags/1.2.6"
             },
             "dist": {
@@ -700,7 +700,7 @@
             "version": "1.12",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/manual-image-crop/",
+                "url": "https://plugins.svn.wordpress.org/manual-image-crop/",
                 "reference": "tags/1.12"
             },
             "dist": {
@@ -720,7 +720,7 @@
             "version": "1.7.7",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/safe-redirect-manager/",
+                "url": "https://plugins.svn.wordpress.org/safe-redirect-manager/",
                 "reference": "tags/1.7.7"
             },
             "dist": {
@@ -740,7 +740,7 @@
             "version": "1.4.16",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/sb-rss-feed-plus/",
+                "url": "https://plugins.svn.wordpress.org/sb-rss-feed-plus/",
                 "reference": "trunk"
             },
             "dist": {
@@ -760,7 +760,7 @@
             "version": "1.6.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/tablepress/",
+                "url": "https://plugins.svn.wordpress.org/tablepress/",
                 "reference": "tags/1.6.1"
             },
             "dist": {
@@ -780,7 +780,7 @@
             "version": "0.5.5.1",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordpress-mu-domain-mapping/",
+                "url": "https://plugins.svn.wordpress.org/wordpress-mu-domain-mapping/",
                 "reference": "tags/0.5.5.1"
             },
             "dist": {
@@ -800,7 +800,7 @@
             "version": "2.3.5",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wordpress-seo/",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
                 "reference": "tags/2.3.5"
             },
             "dist": {
@@ -820,7 +820,7 @@
             "version": "1.80",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wp-external-links/",
+                "url": "https://plugins.svn.wordpress.org/wp-external-links/",
                 "reference": "tags/1.80"
             },
             "dist": {
@@ -840,7 +840,7 @@
             "version": "2.12",
             "source": {
                 "type": "svn",
-                "url": "http://plugins.svn.wordpress.org/wpfront-user-role-editor/",
+                "url": "https://plugins.svn.wordpress.org/wpfront-user-role-editor/",
                 "reference": "tags/2.12"
             },
             "dist": {
