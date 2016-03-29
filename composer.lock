@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b364a057fac8f37b470e7df95847e9d2",
-    "content-hash": "2fbbee8fe19dfaea2943fd4d77605169",
+    "hash": "854b6ee88018b3873c7de7a1c0e35ac1",
+    "content-hash": "546710ffbeb4939b0fc9dbe9536beecb",
     "packages": [
         {
             "name": "composer/installers",
@@ -305,11 +305,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "2.2.0",
+            "version": "dev-timelinefix_6243",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "08fc6e2293be16c4b6013b3f263d9de96070adb3"
+                "reference": "9a345b35576da9d3548f7f809d6869675c8f696f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -319,7 +319,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-03-22 19:11:22"
+            "time": "2016-03-29 19:42:01"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -637,15 +637,15 @@
         },
         {
             "name": "wpackagist-plugin/knight-lab-timelinejs",
-            "version": "3.3.11.2",
+            "version": "3.3.14.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/knight-lab-timelinejs/",
-                "reference": "tags/3.3.11.2"
+                "reference": "tags/3.3.14.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.3.11.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.3.14.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -860,7 +860,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "usstatedept/sitepress-multilingual-cms": 20
+        "usstatedept/sitepress-multilingual-cms": 20,
+        "usstatedept/shareamerica": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
