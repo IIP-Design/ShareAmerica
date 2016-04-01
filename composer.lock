@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ad4229f59ed303d780e2e5533775706e",
-    "content-hash": "01b0aed32e01dab09d337a3283a2bc00",
+    "hash": "c3fe3f2b164dd0c3dec431dce302b2d5",
+    "content-hash": "19e0b0c3a7b6f52e6ab251a78a5db01a",
     "packages": [
         {
             "name": "composer/installers",
@@ -305,11 +305,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "2.3.0",
+            "version": "dev-menu_6189",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "8752bb9317e626fafcc309b29b6b94fe20024349"
+                "reference": "77698d2cb9ce6820b45d49b3e363d77cd2b111e8"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -319,7 +319,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-03-31 19:26:16"
+            "time": "2016-04-01 21:23:34"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -860,7 +860,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "usstatedept/sitepress-multilingual-cms": 20
+        "usstatedept/sitepress-multilingual-cms": 20,
+        "usstatedept/shareamerica": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
