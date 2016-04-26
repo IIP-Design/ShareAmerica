@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "c3fe3f2b164dd0c3dec431dce302b2d5",
-    "content-hash": "19e0b0c3a7b6f52e6ab251a78a5db01a",
+    "hash": "de6176b12a15b091cc5959e6cbf30c4f",
+    "content-hash": "f4ab48f3efa2d64ca94bd0a8dad593cd",
     "packages": [
         {
             "name": "composer/installers",
@@ -347,18 +347,18 @@
         },
         {
             "name": "usstatedept/td-social-counter",
-            "version": "3.1",
+            "version": "dev-facebook_api_2.6_fix_4855",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/td-social-counter.git",
-                "reference": "5cb89f1a458245dc9443a73e528b2af5e09d7d70"
+                "reference": "6f7da15b7f833faf1c48a6fe81a7a3e91177bc10"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Social counter for wordpress",
-            "time": "2015-12-16 20:43:08"
+            "time": "2016-04-26 18:42:49"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -861,7 +861,8 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "usstatedept/sitepress-multilingual-cms": 20,
-        "usstatedept/shareamerica": 20
+        "usstatedept/shareamerica": 20,
+        "usstatedept/td-social-counter": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
