@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "62d1b7cfec70c17694690cb50e9a48a4",
-    "content-hash": "8a9e7a10b6c6476886f28f436d319872",
+    "hash": "98e74e3b647af2037b0a150eb9666f88",
+    "content-hash": "e9c02214124ec7e504bf17c3a23d9d0c",
     "packages": [
         {
             "name": "composer/installers",
@@ -305,11 +305,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "2.3.1",
+            "version": "2.4.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "f60894d92b0449a1460e08a8bb903fd94482ce83"
+                "reference": "9bf480c142541aef3c568b1613f64eaf146b818a"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -319,7 +319,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-04-13 16:30:00"
+            "time": "2016-04-29 17:14:23"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -347,18 +347,18 @@
         },
         {
             "name": "usstatedept/td-social-counter",
-            "version": "3.1",
+            "version": "dev-facebook_api_2.6_fix_4855",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/td-social-counter.git",
-                "reference": "5cb89f1a458245dc9443a73e528b2af5e09d7d70"
+                "reference": "6f7da15b7f833faf1c48a6fe81a7a3e91177bc10"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Social counter for wordpress",
-            "time": "2015-12-16 20:43:08"
+            "time": "2016-04-26 18:42:49"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -860,7 +860,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "usstatedept/sitepress-multilingual-cms": 20
+        "usstatedept/sitepress-multilingual-cms": 20,
+        "usstatedept/td-social-counter": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
