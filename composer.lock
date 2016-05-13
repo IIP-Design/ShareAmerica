@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "98e74e3b647af2037b0a150eb9666f88",
-    "content-hash": "e9c02214124ec7e504bf17c3a23d9d0c",
+    "hash": "6b29e5f2989cf7f9decbcc85da61b7d4",
+    "content-hash": "1c3c52621456d74ab664824e629016d1",
     "packages": [
         {
             "name": "composer/installers",
@@ -146,20 +146,23 @@
         },
         {
             "name": "koodimonni/composer-dropin-installer",
-            "version": "0.2.4",
+            "version": "1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Koodimonni/Composer-Dropin-Installer.git",
-                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340"
+                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/618b96fd3bc8c1532610b7f7baedc4e60736a340",
-                "reference": "618b96fd3bc8c1532610b7f7baedc4e60736a340",
+                "url": "https://api.github.com/repos/Koodimonni/Composer-Dropin-Installer/zipball/717d992bccb9e5b1fded44136333704d4e61a4ae",
+                "reference": "717d992bccb9e5b1fded44136333704d4e61a4ae",
                 "shasum": ""
             },
             "require": {
-                "composer-plugin-api": "1.0.0"
+                "composer-plugin-api": "^1.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.7.*-dev"
             },
             "type": "composer-plugin",
             "extra": {
@@ -181,15 +184,15 @@
                 }
             ],
             "description": "Do what the fuck you want with your composer packages aka. Composer Dropin installer. Install packages or part of packages into custom paths without overwriting existing stuff.",
-            "time": "2015-01-04 10:24:12"
+            "time": "2015-06-11 14:15:20"
         },
         {
             "name": "usstatedept/Newspaper",
-            "version": "6.6.2",
+            "version": "6.7.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/Newspaper.git",
-                "reference": "50ac76c85c6f914c4dab4ec396a7ca35121fdc4f"
+                "reference": "5d421ecda17f9663cb4b2f8084979cc92ac768a9"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -199,7 +202,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's parent theme",
-            "time": "2015-12-16 19:53:57"
+            "time": "2016-05-03 13:05:20"
         },
         {
             "name": "usstatedept/js-cookie-manager",
@@ -224,11 +227,11 @@
         },
         {
             "name": "usstatedept/js_composer",
-            "version": "4.8.1",
+            "version": "4.11.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/js_composer.git",
-                "reference": "4b7584bc50a0ffabd10695fd3dff610656275e17"
+                "reference": "8ae5fddf9237ae0927162c0d6d8ea8ff3026a3f3"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -238,7 +241,7 @@
                 "MIT"
             ],
             "description": "Visual Composer.",
-            "time": "2015-12-16 20:01:08"
+            "time": "2016-05-03 13:15:31"
         },
         {
             "name": "usstatedept/languages",
@@ -265,27 +268,12 @@
             "time": "2016-01-19 19:16:04"
         },
         {
-            "name": "usstatedept/login-security-solution",
-            "version": "0.44.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:USStateDept/login-security-solution.git",
-                "reference": "4690e84b76000b1550b54b2a3c1298763ab73ae0"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "description": "Security against brute force attacks by tracking IP, name, password; requiring very strong passwords. Idle timeout. Maintenance mode lockdown.",
-            "time": "2015-10-06 12:35:45"
-        },
-        {
             "name": "usstatedept/mailchimp-for-wp-pro",
-            "version": "3.1",
+            "version": "3.1.5",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/mailchimp-for-wp-pro.git",
-                "reference": "29d3e09f6cd185c90017892d2ecd22aaabe909c3"
+                "reference": "3c201caa6452258f645827061d6839ccf82c877f"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -301,15 +289,15 @@
                 }
             ],
             "description": "The best MailChimp plugin for WordPress.",
-            "time": "2016-01-27 19:08:16"
+            "time": "2016-05-03 13:36:54"
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "2.4.1",
+            "version": "2.4.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "9bf480c142541aef3c568b1613f64eaf146b818a"
+                "reference": "004cddc02bb36dd24be13b19464e7220119d5961"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -319,15 +307,15 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-04-29 17:14:23"
+            "time": "2016-05-13 17:21:51"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
-            "version": "dev-wpml_3_3_5_switcher_1221_1299_1362",
+            "version": "3.3.8",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/sitepress-multilingual-cms.git",
-                "reference": "a0fa1b142153ba033c698d000765b38d0822650d"
+                "reference": "2bb1530e08ae91f305969a2eeb70ed4656913c55"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -343,22 +331,22 @@
                 }
             ],
             "description": "The core plugin turns WordPress multilingual. It adds the basic translation controls and allows translating content.",
-            "time": "2016-01-05 20:47:46"
+            "time": "2016-05-06 13:46:16"
         },
         {
             "name": "usstatedept/td-social-counter",
-            "version": "dev-facebook_api_2.6_fix_4855",
+            "version": "3.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/td-social-counter.git",
-                "reference": "6f7da15b7f833faf1c48a6fe81a7a3e91177bc10"
+                "reference": "b427547930bb2223332561a26a11e930bdb2e9f6"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Social counter for wordpress",
-            "time": "2016-04-26 18:42:49"
+            "time": "2016-05-03 13:18:49"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -366,7 +354,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wp-hide-login-form.git",
-                "reference": "3796f6657457bcddbe0dd845f6cc73a12487329c"
+                "reference": "5c9a0f55eeea503f82e42d0438fceda8640016ca"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -379,22 +367,22 @@
                 }
             ],
             "description": "A WordPress plugin to hide the login form on the login page when the Google Apps Login plugin is active.",
-            "time": "2015-12-16 16:09:00"
+            "time": "2015-12-16 16:18:36"
         },
         {
             "name": "usstatedept/wpml-media",
-            "version": "2.1.18",
+            "version": "2.1.20",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-media.git",
-                "reference": "ce5ea9b4840a9d665d729fa251ba30e028f5f716"
+                "reference": "31d194db1c036f98989ab66d5c71ac598e7e168a"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Add multilingual support for Media files",
-            "time": "2016-01-04 15:53:30"
+            "time": "2016-05-06 13:49:09"
         },
         {
             "name": "usstatedept/wpml-sticky-links",
@@ -413,40 +401,61 @@
         },
         {
             "name": "usstatedept/wpml-string-translation",
-            "version": "2.3.5",
+            "version": "2.3.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-string-translation.git",
-                "reference": "e4c86775fed48ca535e62f85842e59ecca02c78e"
+                "reference": "63312c5c5dc2f6088629cf72764b501594db4d21"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Adds theme and plugins localization capabilities to WPML",
-            "time": "2016-01-04 16:28:59"
+            "time": "2016-05-06 14:24:56"
         },
         {
             "name": "usstatedept/wpml-translation-management",
-            "version": "2.1.4",
+            "version": "2.1.7",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/wpml-translation-management.git",
-                "reference": "6c47a36d9f66122374926425a7e32f6c32648a7c"
+                "reference": "96d8430965d8cb9283225403fc7a15170be0dbd2"
             },
             "require": {
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-plugin",
             "description": "Add a complete translation process for WPML",
-            "time": "2016-01-04 16:35:17"
+            "time": "2016-05-06 14:26:16"
+        },
+        {
+            "name": "usstatedept/wpml-url-fix",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/wpml-url-fix.git",
+                "reference": "3b0cdc190c6c34fe1b2744009f183b0b4e54e2c7"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "A WordPress plugin to resolve a URL issue with the WPML language switcher when the WPML plugin is active.",
+            "time": "2016-05-10 14:37:23"
         },
         {
             "name": "wordpress",
-            "version": "4.3.1",
+            "version": "4.5.2",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/WordPress/WordPress/archive/4.3.1.zip",
+                "url": "https://github.com/WordPress/WordPress/archive/4.5.2.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -457,15 +466,15 @@
         },
         {
             "name": "wpackagist-plugin/adminimize",
-            "version": "1.8.5",
+            "version": "1.10.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/adminimize/",
-                "reference": "tags/1.8.5"
+                "reference": "tags/1.10.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/adminimize.1.8.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/adminimize.1.10.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -537,15 +546,15 @@
         },
         {
             "name": "wpackagist-plugin/ewww-image-optimizer",
-            "version": "2.5.3",
+            "version": "2.8.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
-                "reference": "tags/2.5.3"
+                "reference": "tags/2.8.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.5.3.zip",
+                "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.2.8.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -557,7 +566,7 @@
         },
         {
             "name": "wpackagist-plugin/font-awesome-4-menus",
-            "version": "4.5.0.0",
+            "version": "4.6.1.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/font-awesome-4-menus/",
@@ -577,15 +586,15 @@
         },
         {
             "name": "wpackagist-plugin/google-apps-login",
-            "version": "2.8.12",
+            "version": "2.9.6",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-apps-login/",
-                "reference": "tags/2.8.12"
+                "reference": "tags/2.9.6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.8.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-apps-login.2.9.6.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -617,15 +626,15 @@
         },
         {
             "name": "wpackagist-plugin/iframe",
-            "version": "4.2",
+            "version": "4.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/iframe/",
-                "reference": "tags/4.2"
+                "reference": "tags/4.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/iframe.4.2.zip",
+                "url": "https://downloads.wordpress.org/plugin/iframe.4.3.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -637,15 +646,15 @@
         },
         {
             "name": "wpackagist-plugin/knight-lab-timelinejs",
-            "version": "3.3.14.0",
+            "version": "3.3.15.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/knight-lab-timelinejs/",
-                "reference": "tags/3.3.14.0"
+                "reference": "tags/3.3.15.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.3.14.0.zip",
+                "url": "https://downloads.wordpress.org/plugin/knight-lab-timelinejs.3.3.15.0.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -657,15 +666,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-for-wp",
-            "version": "3.1",
+            "version": "3.1.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
-                "reference": "tags/3.1"
+                "reference": "tags/3.1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.3.1.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -677,15 +686,15 @@
         },
         {
             "name": "wpackagist-plugin/mailchimp-top-bar",
-            "version": "1.2.6",
+            "version": "1.2.10",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/mailchimp-top-bar/",
-                "reference": "tags/1.2.6"
+                "reference": "tags/1.2.10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/mailchimp-top-bar.1.2.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-top-bar.1.2.10.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -717,15 +726,15 @@
         },
         {
             "name": "wpackagist-plugin/safe-redirect-manager",
-            "version": "1.7.7",
+            "version": "1.7.8",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/safe-redirect-manager/",
-                "reference": "tags/1.7.7"
+                "reference": "tags/1.7.8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-redirect-manager.1.7.7.zip",
+                "url": "https://downloads.wordpress.org/plugin/safe-redirect-manager.1.7.8.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -737,7 +746,7 @@
         },
         {
             "name": "wpackagist-plugin/sb-rss-feed-plus",
-            "version": "1.4.16",
+            "version": "1.4.17",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/sb-rss-feed-plus/",
@@ -757,15 +766,15 @@
         },
         {
             "name": "wpackagist-plugin/tablepress",
-            "version": "1.6.1",
+            "version": "1.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/tablepress/",
-                "reference": "tags/1.6.1"
+                "reference": "tags/1.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/tablepress.1.6.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/tablepress.1.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -797,15 +806,15 @@
         },
         {
             "name": "wpackagist-plugin/wordpress-seo",
-            "version": "2.3.5",
+            "version": "3.2.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
-                "reference": "tags/2.3.5"
+                "reference": "tags/3.2.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.2.3.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.3.2.5.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -817,15 +826,15 @@
         },
         {
             "name": "wpackagist-plugin/wp-external-links",
-            "version": "1.80",
+            "version": "1.81",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wp-external-links/",
-                "reference": "tags/1.80"
+                "reference": "tags/1.81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wp-external-links.1.80.zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-external-links.1.81.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -837,15 +846,15 @@
         },
         {
             "name": "wpackagist-plugin/wpfront-user-role-editor",
-            "version": "2.12",
+            "version": "2.12.4",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/wpfront-user-role-editor/",
-                "reference": "tags/2.12"
+                "reference": "tags/2.12.4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/wpfront-user-role-editor.2.12.zip",
+                "url": "https://downloads.wordpress.org/plugin/wpfront-user-role-editor.2.12.4.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -859,10 +868,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "usstatedept/sitepress-multilingual-cms": 20,
-        "usstatedept/td-social-counter": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
