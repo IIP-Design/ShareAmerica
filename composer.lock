@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b29e5f2989cf7f9decbcc85da61b7d4",
-    "content-hash": "1c3c52621456d74ab664824e629016d1",
+    "hash": "831de4a123bd6306a9ccae9150a1301f",
+    "content-hash": "3c1666c826078588e84b7042e463e8c6",
     "packages": [
         {
             "name": "composer/installers",
@@ -347,6 +347,27 @@
             "type": "wordpress-plugin",
             "description": "Social counter for wordpress",
             "time": "2016-05-03 13:18:49"
+        },
+        {
+            "name": "usstatedept/vc-modal",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/vc-modal.git",
+                "reference": "bb3c40b71e4b47c6e835ce11344d8e368ba9aebf"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "A WordPress plugin that extends Visual Composer with a modal popup shortcode.",
+            "time": "2016-06-16 17:39:05"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
