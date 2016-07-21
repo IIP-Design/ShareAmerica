@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6e63f6ff0d66869e9ee9f15a4b017360",
-    "content-hash": "f72faa7ef8411b86a7c27c659ec93933",
+    "hash": "6b525a8ee212dd92386a8484fdc3b4c9",
+    "content-hash": "8a84720f96d159268aa199b3ddd362e4",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,6 +145,27 @@
             "time": "2013-03-15 17:51:14"
         },
         {
+            "name": "iip-design/iip-chatroll",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/iip-chatroll.git",
+                "reference": "de7c43e2bb0a23e9944a75334bf9810f2920019d"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, Bureau of International Information Programs",
+                    "email": "gustassj@america.gov"
+                }
+            ],
+            "description": "Chatroll Shortcode for IIP Properties",
+            "time": "2016-07-18 19:27:50"
+        },
+        {
             "name": "koodimonni/composer-dropin-installer",
             "version": "1.0",
             "source": {
@@ -206,11 +227,11 @@
         },
         {
             "name": "usstatedept/js-cookie-manager",
-            "version": "1.0",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/js-cookie-manager.git",
-                "reference": "1329b388598c7e8c3ac65df40d0f917c731e56ef"
+                "reference": "d13c2e32a2f7474b5acff8fdee324756e5b25110"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -223,7 +244,7 @@
                 }
             ],
             "description": "Plugin to manage cookies via javascript",
-            "time": "2015-12-17 21:34:46"
+            "time": "2016-07-21 16:48:01"
         },
         {
             "name": "usstatedept/js_composer",
