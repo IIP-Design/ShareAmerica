@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "4594b617e8e0df4706ac14c6fc3c8a1e",
-    "content-hash": "5f060dbfcce63049aa24718526d1d3d9",
+    "hash": "3dd5d175821d588414c10518453c0698",
+    "content-hash": "8b78597faa94ae3369bdde787d5e6f7f",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,6 +145,27 @@
             "time": "2013-03-15 17:51:14"
         },
         {
+            "name": "iip-design/formidable-wpml",
+            "version": "1.03.03",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/formidable-wpml.git",
+                "reference": "d6b17f2e663f8f9ece589a87d88768b59c7f783d"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "design@america.gov"
+                }
+            ],
+            "description": "A WPML add-on for Formidable.",
+            "time": "2016-08-18 20:45:04"
+        },
+        {
             "name": "iip-design/iip-chatroll",
             "version": "1.0.0",
             "source": {
@@ -224,6 +245,30 @@
             ],
             "description": "ShareAmerica's parent theme",
             "time": "2016-05-03 13:05:20"
+        },
+        {
+            "name": "usstatedept/formidable",
+            "version": "dev-translate_fix",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:USStateDept/formidable.git",
+                "reference": "e19c3cada0486862a2b687b339d3fb150c9c0615"
+            },
+            "require": {
+                "composer/installers": "v1.0.21"
+            },
+            "type": "wordpress-plugin",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Peter Kaizer",
+                    "email": "peter.kaizer@aquilent.com"
+                }
+            ],
+            "description": "Formidable",
+            "time": "2016-08-26 18:30:55"
         },
         {
             "name": "usstatedept/js-cookie-manager",
@@ -314,11 +359,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "2.5.0",
+            "version": "2.6.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "cbef011d14f2e720ab03e787ab59156ec3bd048a"
+                "reference": "744b329cd48d78cc2eec37c9f88d9964ddb05cc9"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -328,7 +373,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-08-23 20:41:05"
+            "time": "2016-09-13 18:16:59"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -389,6 +434,27 @@
             ],
             "description": "A WordPress plugin that extends Visual Composer with a modal popup shortcode.",
             "time": "2016-06-22 15:37:19"
+        },
+        {
+            "name": "usstatedept/wordpress-pdcrm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:IIP-Design/wordpress-pdcrm.git",
+                "reference": "d4b511b7ddb317ad5091761bd1311d651e4b6710"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "authors": [
+                {
+                    "name": "Office of Design, U.S. Department of State",
+                    "email": "design@america.gov"
+                }
+            ],
+            "description": "Save WordPress form submissions to Salesforce. Compatible with Formidable Forms, Gravity Forms, and Contact Form 7.",
+            "time": "2016-08-30 20:00:17"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
@@ -910,7 +976,10 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "usstatedept/formidable": 20,
+        "usstatedept/wordpress-pdcrm": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
