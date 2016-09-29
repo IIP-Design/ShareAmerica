@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eec1dfb7e5c08d7a7a95b76c4f34463f",
-    "content-hash": "1f3f908822d61f7570b7f515e4984cbd",
+    "hash": "fe84aa5b065ce369a48e0aa8a3d2c9cb",
+    "content-hash": "948595fa0b090726dad2c1863547bebe",
     "packages": [
         {
             "name": "composer/installers",
@@ -359,11 +359,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "2.6.1",
+            "version": "2.6.2",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "11db21a3969430778cc953575c84ffc35a972175"
+                "reference": "6e8dbc6280c8fbad6e688b31a2e6475616f9f5ca"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -373,7 +373,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-09-15 16:20:23"
+            "time": "2016-09-29 19:39:11"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
