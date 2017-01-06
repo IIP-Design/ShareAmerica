@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d453e2daddaa722ea948e696999487c",
-    "content-hash": "ff41d6e5efc225901139f9bdb9ed91c6",
+    "hash": "cae843f56266c625ad7d0b3695738830",
+    "content-hash": "52e1e2bb1ace9e959192eaa7dc57e029",
     "packages": [
         {
             "name": "composer/installers",
@@ -359,11 +359,11 @@
         },
         {
             "name": "usstatedept/shareamerica",
-            "version": "2.6.5",
+            "version": "2.6.6",
             "source": {
                 "type": "git",
                 "url": "git@github.com:USStateDept/ShareAmerica-Theme.git",
-                "reference": "36c9a710f18ade6f2a1e44e6490e017b6a0257ee"
+                "reference": "fb7811041530246f01d77c2524637b5caac8bac8"
             },
             "require": {
                 "composer/installers": "v1.0.21"
@@ -373,7 +373,7 @@
                 "MIT"
             ],
             "description": "ShareAmerica's theme, a child of Newspaper",
-            "time": "2016-11-22 20:14:35"
+            "time": "2017-01-06 21:21:53"
         },
         {
             "name": "usstatedept/sitepress-multilingual-cms",
@@ -441,7 +441,7 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:IIP-Design/wordpress-pdcrm.git",
-                "reference": "d4b511b7ddb317ad5091761bd1311d651e4b6710"
+                "reference": "fbec6a767c8d8ca779017ecadc43f0d3d2428b5e"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -454,7 +454,7 @@
                 }
             ],
             "description": "Save WordPress form submissions to Salesforce. Compatible with Formidable Forms, Gravity Forms, and Contact Form 7.",
-            "time": "2016-08-30 20:00:17"
+            "time": "2016-12-13 16:39:08"
         },
         {
             "name": "usstatedept/wp-hide-login-form",
