@@ -93,7 +93,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:IIP-Design/iip-chatroll.git"
+            "url": "git@github.com:IIP-Design/iip-interactive.git"
         },
         {
             "type": "git",
@@ -125,7 +125,7 @@
         "usstatedept/td-social-counter": "3.2",
         "usstatedept/vc-modal": "0.1.1",
         "usstatedept/wordpress-pdcrm": "dev-master",
-        "iip-design/iip-chatroll": "1.0.0",
+        "iip-design/iip-interactive": "2.0.0",
         "iip-design/formidable-wpml": "1.03.03",
         "wpackagist-plugin/adminimize": "1.10.3",
         "wpackagist-plugin/animated-gif-resize": "1.0",
