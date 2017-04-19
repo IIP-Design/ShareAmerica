@@ -101,6 +101,10 @@
         },
         {
             "type": "git",
+            "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:IIP-Design/formidable-wpml.git"
         }
     ],
@@ -127,6 +131,7 @@
         "usstatedept/wordpress-pdcrm": "dev-master",
         "iip-design/iip-interactive": "dev-interactive_offset",
         "iip-design/formidable-wpml": "1.03.03",
+        "iip-design/wp-elasticsearch-feeder": "dev-master",
         "wpackagist-plugin/adminimize": "1.10.3",
         "wpackagist-plugin/animated-gif-resize": "1.0",
         "wpackagist-plugin/edik-enhanced-image-editor": "0.1.2",
