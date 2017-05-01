@@ -5,10 +5,17 @@
             "package": {
                 "name": "wordpress",
                 "type": "webroot",
+<<<<<<< HEAD
                 "version": "4.5.2",
                 "dist": {
                     "type": "zip",
                     "url": "https://github.com/WordPress/WordPress/archive/4.5.2.zip"
+=======
+                "version": "4.7.4",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/4.7.4.zip"
+>>>>>>> qa_wp_update
                 },
                 "require" : {
                     "fancyguy/webroot-installer": "1.1.0"
@@ -101,11 +108,19 @@
         },
         {
             "type": "git",
+            "url": "git@github.com:IIP-Design/wp-elasticsearch-feeder.git"
+        },
+        {
+            "type": "git",
             "url": "git@github.com:IIP-Design/formidable-wpml.git"
         }
     ],
     "require": {
+<<<<<<< HEAD
         "wordpress": "4.5.2",
+=======
+        "wordpress": "4.7.4",
+>>>>>>> qa_wp_update
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "1.0",
         "usstatedept/formidable": "dev-translate_fix",
@@ -125,8 +140,9 @@
         "usstatedept/td-social-counter": "3.2",
         "usstatedept/vc-modal": "0.1.1",
         "usstatedept/wordpress-pdcrm": "dev-master",
-        "iip-design/iip-interactive": "2.1.2",
+        "iip-design/iip-interactive": "dev-interactive_offset",
         "iip-design/formidable-wpml": "1.03.03",
+        "iip-design/wp-elasticsearch-feeder": "dev-master",
         "wpackagist-plugin/adminimize": "1.10.3",
         "wpackagist-plugin/animated-gif-resize": "1.0",
         "wpackagist-plugin/edik-enhanced-image-editor": "0.1.2",
@@ -140,11 +156,11 @@
         "wpackagist-plugin/wpfront-user-role-editor": "2.12.4",
         "wpackagist-plugin/google-apps-login": "2.9.6",
         "wpackagist-plugin/safe-redirect-manager": "1.7.8",
-        "wpackagist-plugin/amazon-ses-and-dkim-mailer": "1.7",
+        "wpackagist-plugin/wp-ses": "0.4.9",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
-        "wpackagist-plugin/sb-rss-feed-plus": "1.4.17",
+        "wpackagist-plugin/sb-rss-feed-plus": "1.4.18",
         "wpackagist-plugin/knight-lab-timelinejs": "3.3.15.0",
-        "wpackagist-plugin/font-awesome-4-menus": "4.6.1.0",
+        "wpackagist-plugin/font-awesome-4-menus": "4.7.0",
         "wpackagist-plugin/mailchimp-for-wp": "3.1.7",
         "wpackagist-plugin/mailchimp-top-bar": "1.2.10"
         },
