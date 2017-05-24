@@ -145,7 +145,7 @@
         "wpackagist-plugin/wpfront-user-role-editor": "2.12.4",
         "wpackagist-plugin/google-apps-login": "2.9.6",
         "wpackagist-plugin/safe-redirect-manager": "1.7.8",
-        "wpackagist-plugin/wp-ses": "0.4.9",
+        "wpackagist-plugin/wp-ses": "0.7.0",
         "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
         "wpackagist-plugin/sb-rss-feed-plus": "1.4.18",
         "wpackagist-plugin/knight-lab-timelinejs": "3.3.15.0",
