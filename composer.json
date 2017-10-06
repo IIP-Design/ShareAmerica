@@ -106,6 +106,14 @@
         {
             "type": "git",
             "url": "git@github.com:IIP-Design/formidable-wpml.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/America-API-Client.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/Courses-Module.git"
         }
     ],
     "require": {
@@ -132,6 +140,8 @@
         "iip-design/iip-interactive": "2.1.2",
         "iip-design/formidable-wpml": "1.03.03",
         "iip-design/wp-elasticsearch-feeder": "dev-master",
+        "iip-design/america-api-client": "2.2.3",
+        "iip-design/courses-module": "v2.0.1",
         "wpackagist-plugin/adminimize": "1.10.3",
         "wpackagist-plugin/animated-gif-resize": "1.0",
         "wpackagist-plugin/duracelltomi-google-tag-manager": "1.7.1",
