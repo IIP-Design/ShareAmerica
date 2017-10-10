@@ -1,5 +1,6 @@
 <?php
-
+// autoload vendor classes
+require_once __DIR__ . '/vendor/autoload.php';
 
 // ** MySQL settings ** //
 /** The name of the database for WordPress */
@@ -34,7 +35,7 @@ $table_prefix = 'wp_';
 
 
 define('WP_DEBUG', false );
-define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_LOG', false);
 define('WP_DEBUG_DISPLAY', false);
 
 // Tells Wordpress to look for the wp-content directory in a non-standard location

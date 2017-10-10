@@ -114,6 +114,10 @@
         {
             "type": "git",
             "url": "git@github.com:IIP-Design/Courses-Module.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:IIP-Design/america-screendoor.git"
         }
     ],
     "require": {
@@ -132,7 +136,7 @@
         "usstatedept/wpml-url-fix": "1.0.0",
         "usstatedept/js-cookie-manager": "1.1.0",
         "usstatedept/Newspaper": "7.8.1",
-        "usstatedept/shareamerica": "3.0.5",
+        "usstatedept/shareamerica": "dev-adding_certificates",
         "usstatedept/languages": "4.3.1",
         "usstatedept/td-social-counter": "3.2",
         "usstatedept/vc-modal": "0.1.1",
@@ -142,6 +146,7 @@
         "iip-design/wp-elasticsearch-feeder": "dev-master",
         "iip-design/america-api-client": "2.2.4",
         "iip-design/courses-module": "v2.0.2",
+        "usstatedept/america-screendoor": "1.3.4",
         "wpackagist-plugin/adminimize": "1.10.3",
         "wpackagist-plugin/animated-gif-resize": "1.0",
         "wpackagist-plugin/duracelltomi-google-tag-manager": "1.7.1",
