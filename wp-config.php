@@ -30,6 +30,22 @@ define('SECURE_AUTH_SALT', getenv('SHARE_SECURE_AUTH_SALT'));
 define('LOGGED_IN_SALT',   getenv('SHARE_LOGGED_IN_SALT'));
 define('NONCE_SALT',       getenv('SHARE_NONCE_SALT'));
 
+/** AWS S3 Uploads directory **/
+if ( isset( $_SERVER['SHARE_S3_UPLOADS_BUCKET'] ) ) {
+  define('S3_UPLOADS_BUCKET', getenv('SHARE_S3_UPLOADS_BUCKET'));
+}
+if ( isset( $_SERVER['SHARE_S3_UPLOADS_KEY'] ) ) {
+  define('S3_UPLOADS_KEY', getenv('SHARE_S3_UPLOADS_KEY'));
+}
+if ( isset( $_SERVER['SHARE_S3_UPLOADS_SECRET'] ) ) {
+  define('S3_UPLOADS_SECRET', getenv('SHARE_S3_UPLOADS_SECRET'));
+}
+if ( isset( $_SERVER['SHARE_S3_UPLOADS_REGION'] ) ) {
+  define('S3_UPLOADS_REGION', getenv('SHARE_S3_UPLOADS_REGION'));
+}
+if ( isset( $_SERVER['SHARE_S3_UPLOADS_BUCKET_URL'] ) ) {
+  define('S3_UPLOADS_BUCKET_URL', getenv('SHARE_S3_UPLOADS_BUCKET_URL'));
+}
 
 $table_prefix = 'wp_';
 
