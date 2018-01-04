@@ -73,7 +73,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:USStateDept/ShareAmerica-Theme.git"
+            "url": "git@github.com:IIP-Design/ShareAmerica-Theme.git"
         },
         {
             "type": "git",
@@ -140,7 +140,7 @@
         "usstatedept/wpml-url-fix": "1.0.0",
         "usstatedept/js-cookie-manager": "1.1.0",
         "usstatedept/Newspaper": "7.8.1",
-        "usstatedept/shareamerica": "3.0.7",
+        "iip-design/shareamerica": "3.0.8",
         "usstatedept/languages": "4.3.1",
         "usstatedept/td-social-counter": "3.2",
         "usstatedept/vc-modal": "0.1.1",
