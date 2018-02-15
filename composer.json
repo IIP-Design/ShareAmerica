@@ -140,7 +140,7 @@
         "iip-design/wpml-translation-management":  "2.5.2",
         "iip-design/wpml-url-fix": "1.0.0",
         "iip-design/js-cookie-manager": "1.1.1",
-        "iip-design/Newspaper": "7.8.1",
+        "iip-design/Newspaper": "dev-wpcaption_patch",
         "iip-design/shareamerica": "3.0.9",
         "usstatedept/languages": "4.3.1",
         "iip-design/td-social-counter": "3.2",
