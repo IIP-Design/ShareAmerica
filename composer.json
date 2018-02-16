@@ -141,7 +141,7 @@
         "iip-design/wpml-url-fix": "1.0.0",
         "iip-design/js-cookie-manager": "1.1.1",
         "iip-design/Newspaper": "dev-wpcaption_patch",
-        "iip-design/shareamerica": "dev-style-template-captions",
+        "iip-design/shareamerica": "3.0.10",
         "usstatedept/languages": "4.3.1",
         "iip-design/td-social-counter": "3.2",
         "iip-design/vc-modal": "0.1.3",
