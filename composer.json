@@ -29,7 +29,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:USStateDept/wp-hide-login-form.git"
+            "url": "git@github.com:IIP-Design/wp-hide-login-form.git"
         },
         {
             "type": "git",
@@ -73,7 +73,7 @@
         },
         {
             "type": "git",
-            "url": "https://github.com/USStateDept/wp_core_languages.git"
+            "url": "git@github.com:IIP-Design/wp_core_languages.git"
         },
         {
             "type": "git",
@@ -93,7 +93,7 @@
         },
         {
             "type": "git",
-            "url": "git@github.com:USStateDept/formidable.git"
+            "url": "git@github.com:IIP-Design/formidable.git"
         },
         {
             "type": "git",
@@ -129,9 +129,9 @@
         "fancyguy/webroot-installer": "1.1.0",
         "koodimonni/composer-dropin-installer": "1.0",
         "humanmade/s3-uploads": "dev-master",
-        "usstatedept/formidable": "dev-translate_fix",
+        "iip-design/formidable": "dev-translate_fix",
         "iip-design/js_composer": "4.11.2",
-        "usstatedept/wp-hide-login-form": "1.0.1",
+        "iip-design/wp-hide-login-form": "1.0.1",
         "iip-design/mailchimp-for-wp-pro":  "3.1.5",
         "iip-design/sitepress-multilingual-cms": "3.9.3",
         "iip-design/wpml-media":  "2.2.3",
@@ -142,10 +142,10 @@
         "iip-design/js-cookie-manager": "1.1.1",
         "iip-design/Newspaper": "dev-wpcaption_patch",
         "iip-design/shareamerica": "3.0.9",
-        "usstatedept/languages": "4.3.1",
+        "iip-design/languages": "4.3.1",
         "iip-design/td-social-counter": "3.2",
         "iip-design/vc-modal": "0.1.3",
-        "usstatedept/wordpress-pdcrm": "dev-master",
+        "iip-design/wordpress-pdcrm": "dev-master",
         "iip-design/iip-interactive": "2.1.2",
         "iip-design/formidable-wpml": "1.05b",
         "iip-design/wp-elasticsearch-feeder": "dev-master",
@@ -179,7 +179,7 @@
               "package:wpackagist-plugin/wordpress-mu-domain-mapping:sunrise.php"
             ],
             "wp-content/languages":[
-              "package:usstatedept/languages"
+              "package:iip-design/languages"
             ]
         },
         "webroot-dir": "wp",
