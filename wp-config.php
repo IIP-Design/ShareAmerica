@@ -82,6 +82,10 @@ define( 'SUNRISE', 'on' );
 
 define('WP_DEFAULT_THEME', 'shareamerica');
 
+define('ICL_DONT_LOAD_LANGUAGES_JS', true );
+
+define('ICL_DONT_LOAD_LANGUAGE_SELECTOR_CSS', true);
+
 /* That's all, stop editing! Happy blogging. */
 
 /** Absolute path to the WordPress directory. */
