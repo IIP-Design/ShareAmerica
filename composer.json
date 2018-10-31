@@ -21,6 +21,10 @@
     },
     {
       "type": "git",
+      "url": "git@github.com:humanmade/S3-Uploads.git"
+    },
+    {
+      "type": "git",
       "url": "git@github.com:IIP-Design/Newspaper.git"
     },
     {
@@ -53,6 +57,10 @@
     },
     {
       "type": "git",
+      "url": "git@github.com:IIP-Design/iip-second-author.git"
+    },
+    {
+      "type": "git",
       "url": "git@github.com:IIP-Design/js-cookie-manager.git"
     },
     {
@@ -62,10 +70,6 @@
     {
       "type": "git",
       "url": "git@github.com:IIP-Design/login-security-solution.git"
-    },
-    {
-      "type": "git",
-      "url": "git@github.com:humanmade/S3-Uploads.git"
     },
     {
       "type": "git",
@@ -138,7 +142,7 @@
     "koodimonni/composer-dropin-installer": "1.0",
     "humanmade/s3-uploads": "dev-master",
     "iip-design/Newspaper": "9.0.1",
-    "iip-design/shareamerica": "3.0.18",
+    "iip-design/shareamerica": "3.0.19",
     "iip-design/america-api-client": "2.2.13",
     "iip-design/america-screendoor": "1.3.24",
     "iip-design/formidable": "3.03.01",
@@ -147,6 +151,7 @@
     "iip-design/js_composer": "5.5.2",
     "iip-design/js-cookie-manager": "1.1.1",
     "iip-design/iip-interactive": "2.1.2",
+    "iip-design/iip-second-author": "1.0.0",
     "iip-design/languages": "4.3.1",
     "iip-design/sitepress-multilingual-cms": "4.0.5",
     "iip-design/td-composer": "2.3",
