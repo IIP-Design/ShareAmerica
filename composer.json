@@ -159,7 +159,7 @@
     "iip-design/vc-modal": "0.1.3",
     "iip-design/wordpress-pdcrm": "dev-master",
     "iip-design/wordpress-seo-premium": "8.0.0",
-    "iip-design/wp-elasticsearch-feeder": "dev-master",
+    "iip-design/wp-elasticsearch-feeder": "2.4.0",
     "iip-design/wp-hide-login-form": "1.0.1",
     "iip-design/wpml-media": "2.3.5",
     "iip-design/wpml-sticky-links": "1.4.4",
