@@ -1,0 +1,419 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Share This Image\n"
+"Report-Msgid-Bugs-To: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: grunt-wp-i18n 0.5.0\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+
+
+msgid "Settings"
+msgstr ""
+
+msgid "Share Image Options"
+msgstr ""
+
+msgid "General"
+msgstr ""
+
+msgid "Styling"
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Share This Image"
+msgstr ""
+
+msgid "Save Changes"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Change order by drag&drop"
+msgstr ""
+
+msgid "Inactive"
+msgstr ""
+
+msgid "Excluded from this option"
+msgstr ""
+
+msgid "What to Share"
+msgstr ""
+
+msgid "Selector"
+msgstr ""
+
+msgid "Selectors for images. Separate several selectors with commas."
+msgstr ""
+
+msgid "Black list"
+msgstr ""
+
+msgid "The image classes and ids that the plugin will filter out. Separate several selectors with commas."
+msgstr ""
+
+msgid "Exclude Pages"
+msgstr ""
+
+msgid "Add pages ids to exclude all images inside them from sharing."
+msgstr ""
+
+msgid "Display Settings"
+msgstr ""
+
+msgid "Minimal width"
+msgstr ""
+
+msgid "Minimum width of image in pixels to use for sharing."
+msgstr ""
+
+msgid "Minimal height"
+msgstr ""
+
+msgid "Minimum height of image in pixels to use for sharing."
+msgstr ""
+
+msgid "Twitter via"
+msgstr ""
+
+msgid "Set twitters 'via' property."
+msgstr ""
+
+msgid "Share buttons"
+msgstr ""
+
+msgid "Drag and drop to the right area share buttons that you want to appear for image sharing"
+msgstr ""
+
+msgid "Position of fields shows the position of each share button in the sharing box."
+msgstr ""
+
+msgid "Enable auto scroll?"
+msgstr ""
+
+msgid "If you don't want to scroll your visitors to the relevant shared image set this option to Off"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "Enable on mobile?"
+msgstr ""
+
+msgid "Enable image sharing on mobile devices"
+msgstr ""
+
+msgid "Always show?"
+msgstr ""
+
+msgid "Show sharing buttons only on hover or make them all visible on page load."
+msgstr ""
+
+msgid "NOTE: Enabling this option can cause some problems with images inside sliders, galleries, etc."
+msgstr ""
+
+msgid "Use intermediate page."
+msgstr ""
+
+msgid "If you have some problems with redirection from social networks to page with sharing image try to switch Off this option."
+msgstr ""
+
+msgid "But before apply it need to be tested to ensure that all work's fine."
+msgstr ""
+
+msgid "Google Analytics"
+msgstr ""
+
+msgid "Use google analytics to track social buttons clicks. Need google analytics to be installed on your site."
+msgstr ""
+
+msgid "Will be send the event with category - 'STI click', action - 'social button name' and label of value of image URL."
+msgstr ""
+
+msgid "Plugin has %s special rules %s how to choose what title and description to use for sharing."
+msgstr ""
+
+msgid "There is different sources that plugin look in step by step searching for content according to priority of this sources."
+msgstr ""
+
+msgid "Also with PRO plugin version you can change priority of this sources or even disable/enable some of them."
+msgstr ""
+
+msgid "For title: 'data-title attribute' -> 'image title attribute' -> 'default title option' -> 'page title'"
+msgstr ""
+
+msgid "For description: 'data-summary attribute' -> 'image caption' -> 'image alt attribute' -> 'default description option'"
+msgstr ""
+
+msgid "It is also possible to create your fully unique title and description with help of special %s variables and conditions %s."
+msgstr ""
+
+msgid "Content Sources"
+msgstr ""
+
+msgid "Title Source"
+msgstr ""
+
+msgid "Title source: Drag&drop sources order to change priority, or exclude by moving to deactivated sources."
+msgstr ""
+
+msgid "data-title attribute"
+msgstr ""
+
+msgid "data-summary attribute"
+msgstr ""
+
+msgid "title attribute"
+msgstr ""
+
+msgid "alt attribute"
+msgstr ""
+
+msgid "default title"
+msgstr ""
+
+msgid "default description"
+msgstr ""
+
+msgid "document title"
+msgstr ""
+
+msgid "Description Source"
+msgstr ""
+
+msgid "Description source: Drag&drop sources order to change priority, or exclude by moving to deactivated sources."
+msgstr ""
+
+msgid "Default Content"
+msgstr ""
+
+msgid "Default Title"
+msgstr ""
+
+msgid "Content for 'Default Title' source."
+msgstr ""
+
+msgid "Default Description"
+msgstr ""
+
+msgid "Content for 'Default Description' source."
+msgstr ""
+
+msgid "Email Template"
+msgstr ""
+
+msgid "For email subject and body you can customize sharing content. You can do this with special variables like {{image_link}} that will be replaced with real value."
+msgstr ""
+
+msgid "Example:"
+msgstr ""
+
+msgid "Hey check out this link"
+msgstr ""
+
+msgid "Available variables:"
+msgstr ""
+
+msgid "Subject"
+msgstr ""
+
+msgid "Set default email subject."
+msgstr ""
+
+msgid "Content"
+msgstr ""
+
+msgid "Set default email content."
+msgstr ""
+
+msgid "Buttons style"
+msgstr ""
+
+msgid "Choose one of predefined styles for share buttons."
+msgstr ""
+
+msgid "Flat small style"
+msgstr ""
+
+msgid "Flat style"
+msgstr ""
+
+msgid "Boxed style"
+msgstr ""
+
+msgid "Align by plane x"
+msgstr ""
+
+msgid "Align of share box by x coordinate."
+msgstr ""
+
+msgid "Left"
+msgstr ""
+
+msgid "Right"
+msgstr ""
+
+msgid "Align by plane y"
+msgstr ""
+
+msgid "Align of share box by y coordinate."
+msgstr ""
+
+msgid "Offset by plane x"
+msgstr ""
+
+msgid "Offset of share box by x coordinate."
+msgstr ""
+
+msgid "Top"
+msgstr ""
+
+msgid "Bottom"
+msgstr ""
+
+msgid "Orientation"
+msgstr ""
+
+msgid "Vertical or horizontal orientation of share box."
+msgstr ""
+
+msgid "Vertical"
+msgstr ""
+
+msgid "Horizontal"
+msgstr ""
+
+msgid "<strong>Remember:</strong> Plugin won\'t scrap any data if you are using it on your <strong>local server</strong> or if your site disable <strong>search engine indexing</strong>."
+msgstr ""
+
+msgid "Please test STI plugin on publicly available site."
+msgstr ""
+
+msgid "Upgrade to the"
+msgstr ""
+
+msgid "Premium plugin version"
+msgstr ""
+
+msgid "to have all available features!"
+msgstr ""
+
+msgid "Premium Features"
+msgstr ""
+
+msgid "Advanced Content Customization"
+msgstr ""
+
+msgid "Set what title, description and URL must be used when sharing images. Set sources for this content and change their priority."
+msgstr ""
+
+msgid "Learn more"
+msgstr ""
+
+msgid "Content Variables"
+msgstr ""
+
+msgid "It is possible to use set of variables to customize shared content. Use all of them or just some. Also possible to use simple logic operators like 'if' and 'not if' to check availability of variables for currently sharing image."
+msgstr ""
+
+msgid "Styling options"
+msgstr ""
+
+msgid "Choose from one of predefined styles for sharing buttons. Align sharing buttons to the left or right side of the image. Choose from vertical or horizontal orientation. Change buttons offsets."
+msgstr ""
+
+msgid "Link, email, download buttons"
+msgstr ""
+
+msgid "New sharing buttoms: copy link to image button, send email button to send image via email with custom content and download buttons that give your users option to download images in just one click."
+msgstr ""
+
+msgid "Auto-scroll"
+msgstr ""
+
+msgid "Auto-scroll visitors that click on shared image in social network to the exact location of this image on website."
+msgstr ""
+
+msgid "Exclude options"
+msgstr ""
+
+msgid "With help of plugin settings page it is possible to exclude all images from certain pages from sharing. Or exclude just single images with help if 'Black list' selector."
+msgstr ""
+
+msgid "Priority Support"
+msgstr ""
+
+msgid "You will benefit of our full support for any issues you have with this plugin."
+msgstr ""
+
+msgid "Frequently Asked Questions"
+msgstr ""
+
+msgid "Is this one-time payment?"
+msgstr ""
+
+msgid "Yes, you pay once and you can use the plugin in a lifetime, get plugin updates and support."
+msgstr ""
+
+msgid "Do you offer refunds?"
+msgstr ""
+
+msgid "If you're not completely happy with your purchase and we're unable to resolve the issue, let us know and we'll refund the full purchase price."
+msgstr ""
+
+msgid "Refunds can be processed within 30 days of the original purchase."
+msgstr ""
+
+msgid "Do I get updates for the premium plugin?"
+msgstr ""
+
+msgid "Yes! Automatic updates for premium plugin available lifetime after the purchase."
+msgstr ""
+
+msgid "Can I use your plugin on multiple websites?"
+msgstr ""
+
+msgid "Yes, you are free to use our plugin on as many websites as you like."
+msgstr ""
+
+msgid "What payment methods do you accept?"
+msgstr ""
+
+msgid "We support major credit and debit cards, PayPal, and a variety of other mainstream payment methods, so there’s plenty to pick from."
+msgstr ""
+
+msgid "Do you offer support if I need help?"
+msgstr ""
+
+msgid "Yes! You will benefit of our full support for any issues you have with this plugin."
+msgstr ""
+
+msgid "I have other pre-sale questions, can you help?"
+msgstr ""
+
+msgid "Yes! You can ask us any question through our"
+msgstr ""
+
+msgid "contact form."
+msgstr ""
+
+msgid "Leave a review"
+msgstr ""
