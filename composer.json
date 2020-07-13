@@ -77,10 +77,6 @@
     },
     {
       "type": "git",
-      "url": "git@github.com:IIP-Design/styled-block-builder.git"
-    },
-    {
-      "type": "git",
       "url": "git@github.com:IIP-Design/td-composer.git"
     },
     {
@@ -144,7 +140,7 @@
     "wordpress": "5.2.2",
     "fancyguy/webroot-installer": "1.1.0",
     "koodimonni/composer-dropin-installer": "1.0",
-    "humanmade/s3-uploads": "dev-master",
+    "humanmade/s3-uploads": "dev-master#e5c71d996f124250740f5752dfd4bc358ad693b0",
     "iip-design/Newspaper": "9.2.2",
     "iip-design/shareamerica": "3.0.27",
     "iip-design/america-api-client": "2.2.14",
@@ -158,7 +154,6 @@
     "iip-design/iip-second-author": "1.0.0",
     "iip-design/languages": "4.3.1",
     "iip-design/sitepress-multilingual-cms": "4.2.7.1",
-    "iip-design/styled-block-builder": "v1.0.0",
     "iip-design/td-composer": "2.3b",
     "iip-design/td-social-counter": "4.5",
     "iip-design/vc-modal": "0.1.3",
