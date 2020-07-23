@@ -53,6 +53,10 @@
     },
     {
       "type": "git",
+      "url": "git@github.com:IIP-Design/heading-title-shift.git"
+    },
+    {
+      "type": "git",
       "url": "git@github.com:IIP-Design/iip-interactive.git"
     },
     {
@@ -148,10 +152,11 @@
     "iip-design/formidable": "4.02.01",
     "iip-design/formidable-pro": "4.02.01",
     "iip-design/formidable-wpml": "1.06",
+    "iip-design/heading-title-shift": "1.0.0",
     "iip-design/js_composer": "6.0.5",
     "iip-design/js-cookie-manager": "1.1.1",
     "iip-design/iip-interactive": "2.1.2",
-    "iip-design/iip-second-author": "1.0.0",
+    "iip-design/iip-second-author": "v1.0.0",
     "iip-design/languages": "4.3.1",
     "iip-design/sitepress-multilingual-cms": "4.2.7.1",
     "iip-design/td-composer": "2.3b",
