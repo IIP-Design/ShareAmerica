@@ -162,7 +162,7 @@
     "iip-design/td-composer": "2.3b",
     "iip-design/td-social-counter": "4.7.0.1",
     "iip-design/vc-modal": "0.1.3",
-    "iip-design/wordpress-pdcrm": "dev-master",
+    "iip-design/wordpress-pdcrm": "dev-master#d91f65ce5228403f43ea96cac934c2a0bcaa4405",
     "iip-design/wordpress-seo-premium": "14.6.1",
     "iip-design/wp-elasticsearch-feeder": "2.5.0",
     "iip-design/wp-hide-login-form": "1.0.1",
