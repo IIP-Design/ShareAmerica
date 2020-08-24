@@ -165,7 +165,7 @@
     "iip-design/wordpress-pdcrm": "dev-master#d91f65ce5228403f43ea96cac934c2a0bcaa4405",
     "iip-design/wordpress-seo-premium": "14.6.1",
     "iip-design/wp-elasticsearch-feeder": "2.5.0",
-    "iip-design/wp-hide-login-form": "1.0.1",
+    "iip-design/wp-hide-login-form": "v1.1.0",
     "iip-design/wpml-media": "2.5.2",
     "iip-design/wpml-sticky-links": "1.5.0",
     "iip-design/wpml-string-translation": "2.10.5.1",
@@ -184,7 +184,7 @@
     "wpackagist-plugin/sb-rss-feed-plus": "1.4.20",
     "wpackagist-plugin/wordpress-mu-domain-mapping": "0.5.5.1",
     "wpackagist-plugin/wp-external-links": "2.46",
-    "wpackagist-plugin/wp-ses": "1.4.2",
+    "wpackagist-plugin/wp-ses": "1.4.3",
     "wpackagist-plugin/wpfront-user-role-editor": "2.14.4"
   },
   "extra": {
